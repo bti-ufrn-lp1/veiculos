@@ -1,0 +1,5 @@
+<map id="Carro" name="Carro">
+<area shape="rect" id="node1" title=" " alt="" coords="5,463,197,643"/>
+<area shape="rect" id="node2" href="$class_veiculo.html" title="Classe que representa um veículo." alt="" coords="6,189,197,413"/>
+<area shape="rect" id="node3" title=" " alt="" coords="74,5,129,83"/>
+</map>

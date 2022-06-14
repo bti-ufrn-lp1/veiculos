@@ -1,0 +1,5 @@
+<map id="VeiculoAnfibio" name="VeiculoAnfibio">
+<area shape="rect" id="node1" title="Classe que representa um veículo anfíbio." alt="" coords="107,380,289,604"/>
+<area shape="rect" id="node2" href="$class_veiculo.html" title="Classe que representa um veículo." alt="" coords="5,5,196,332"/>
+<area shape="rect" id="node3" href="$class_barco.html" title="Classe que representa um barco." alt="" coords="220,79,373,259"/>
+</map>

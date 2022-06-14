@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Veiculos: Código-Fonte de include/veiculo.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Veiculos
+   </div>
+   <div id="projectbrief">Demonstração da implementação de herança em C++</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.9.3 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search",'Busca','.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Busca');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">veiculo.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="veiculo_8h.html">Vá para a documentação desse arquivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="preprocessor">#ifndef VEICULO_H</span></div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span><span class="preprocessor">#define VEICULO_H</span></div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span> </div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">using</span> std::string;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno"><a class="line" href="class_veiculo.html">   19</a></span><span class="keyword">class </span><a class="code hl_class" href="class_veiculo.html">Veiculo</a> {</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">protected</span>:</div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno"><a class="line" href="class_veiculo.html#a703ecfecd24559df67d97bd54e29962e">   23</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_veiculo.html#a703ecfecd24559df67d97bd54e29962e">fabricante</a>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span> </div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_veiculo.html#a313c15811b7fffa4787eea0dcf12fc13">   26</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_veiculo.html#a313c15811b7fffa4787eea0dcf12fc13">modelo</a>;</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_veiculo.html#a29620f04e6ef84cc3c25ee7e6158987b">   29</a></span>    <span class="keywordtype">short</span> <a class="code hl_variable" href="class_veiculo.html#a29620f04e6ef84cc3c25ee7e6158987b">ano</a>;</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="class_veiculo.html#a53023192cda2f99d820639b9076ab98b">   32</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_veiculo.html#a53023192cda2f99d820639b9076ab98b">cor</a>;</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_veiculo.html#ab1b11774b6ee7e17da2f2b2bac36916f">   35</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="class_veiculo.html#ab1b11774b6ee7e17da2f2b2bac36916f">placa</a>;</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keyword">public</span>:</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span> </div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>    <a class="code hl_function" href="class_veiculo.html#aafab27708a2639bc83a4c3721e57d196">Veiculo</a>();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    <a class="code hl_function" href="class_veiculo.html#aafab27708a2639bc83a4c3721e57d196">Veiculo</a>(<span class="keywordtype">string</span> fab, <span class="keywordtype">string</span> mod, <span class="keywordtype">short</span> a, <span class="keywordtype">string</span> c, <span class="keywordtype">string</span> pl);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_veiculo.html#a81b68b2a5f4c9fb6dde8b2bae4835854">getFabricante</a>();</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#a243b626acc2620da6f93ec5745a0fe20">setFabricante</a>(<span class="keywordtype">string</span> fab);</div>
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span> </div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_veiculo.html#a7c73008db8e31508658cf010a4007424">getModelo</a>();</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#a888f0545d193a8ddaaa6ab661b59e661">setModelo</a>(<span class="keywordtype">string</span> mod);</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span> </div>
+<div class="line"><a id="l00080" name="l00080"></a><span class="lineno">   80</span>    <span class="keywordtype">short</span> <a class="code hl_function" href="class_veiculo.html#a126f2cb508fb117ae4a52556196d3f07">getAno</a>();</div>
+<div class="line"><a id="l00081" name="l00081"></a><span class="lineno">   81</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno">   86</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#ad94e9b6b6b7d8b3132570204982a7f8c">setAno</a>(<span class="keywordtype">short</span> a);</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno">   92</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_veiculo.html#a0f72bb9cafd180e9321d84dd94f67a13">getCor</a>();</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span>    </div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#ae2a2891383aa10c43aa48745b967112f">setCor</a>(<span class="keywordtype">string</span> c);</div>
+<div class="line"><a id="l00099" name="l00099"></a><span class="lineno">   99</span> </div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_veiculo.html#af700ed20beb425a049001645c8226c88">getPlaca</a>();</div>
+<div class="line"><a id="l00105" name="l00105"></a><span class="lineno">  105</span>    </div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#a6a4a5aa2ece6fc78cf4cfe8aea707073">setPlaca</a>(<span class="keywordtype">string</span> pl);</div>
+<div class="line"><a id="l00111" name="l00111"></a><span class="lineno">  111</span> </div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#a61caac9c1e15f1787df76e94f7151b07">ligar</a>();</div>
+<div class="line"><a id="l00114" name="l00114"></a><span class="lineno">  114</span> </div>
+<div class="line"><a id="l00116" name="l00116"></a><span class="lineno">  116</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#a9e647f58154cc3e11010f94d699f9c23">mover</a>();</div>
+<div class="line"><a id="l00117" name="l00117"></a><span class="lineno">  117</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_veiculo.html#a7f9ea813b56cbc2f465735acee20ffc0">parar</a>();</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00126" name="l00126"></a><span class="lineno">  126</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_veiculo.html#ac7be734ce83a64b132069726a4b9efd1">toString</a>();</div>
+<div class="line"><a id="l00127" name="l00127"></a><span class="lineno">  127</span>};</div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span> </div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span><span class="preprocessor">#endif</span></div>
+<div class="ttc" id="aclass_veiculo_html"><div class="ttname"><a href="class_veiculo.html">Veiculo</a></div><div class="ttdoc">Classe que representa um veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.h:19</div></div>
+<div class="ttc" id="aclass_veiculo_html_a0f72bb9cafd180e9321d84dd94f67a13"><div class="ttname"><a href="class_veiculo.html#a0f72bb9cafd180e9321d84dd94f67a13">Veiculo::getCor</a></div><div class="ttdeci">string getCor()</div><div class="ttdoc">Retorna a cor do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:89</div></div>
+<div class="ttc" id="aclass_veiculo_html_a126f2cb508fb117ae4a52556196d3f07"><div class="ttname"><a href="class_veiculo.html#a126f2cb508fb117ae4a52556196d3f07">Veiculo::getAno</a></div><div class="ttdeci">short getAno()</div><div class="ttdoc">Retorna o ano de fabricação do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:73</div></div>
+<div class="ttc" id="aclass_veiculo_html_a243b626acc2620da6f93ec5745a0fe20"><div class="ttname"><a href="class_veiculo.html#a243b626acc2620da6f93ec5745a0fe20">Veiculo::setFabricante</a></div><div class="ttdeci">void setFabricante(string fab)</div><div class="ttdoc">Modifica o fabricante do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:49</div></div>
+<div class="ttc" id="aclass_veiculo_html_a29620f04e6ef84cc3c25ee7e6158987b"><div class="ttname"><a href="class_veiculo.html#a29620f04e6ef84cc3c25ee7e6158987b">Veiculo::ano</a></div><div class="ttdeci">short ano</div><div class="ttdoc">Ano de fabricação do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.h:29</div></div>
+<div class="ttc" id="aclass_veiculo_html_a313c15811b7fffa4787eea0dcf12fc13"><div class="ttname"><a href="class_veiculo.html#a313c15811b7fffa4787eea0dcf12fc13">Veiculo::modelo</a></div><div class="ttdeci">string modelo</div><div class="ttdoc">Modelo do veóculo.</div><div class="ttdef"><b>Definition:</b> veiculo.h:26</div></div>
+<div class="ttc" id="aclass_veiculo_html_a53023192cda2f99d820639b9076ab98b"><div class="ttname"><a href="class_veiculo.html#a53023192cda2f99d820639b9076ab98b">Veiculo::cor</a></div><div class="ttdeci">string cor</div><div class="ttdoc">Cor do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.h:32</div></div>
+<div class="ttc" id="aclass_veiculo_html_a61caac9c1e15f1787df76e94f7151b07"><div class="ttname"><a href="class_veiculo.html#a61caac9c1e15f1787df76e94f7151b07">Veiculo::ligar</a></div><div class="ttdeci">void ligar()</div><div class="ttdoc">Aciona o veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:118</div></div>
+<div class="ttc" id="aclass_veiculo_html_a6a4a5aa2ece6fc78cf4cfe8aea707073"><div class="ttname"><a href="class_veiculo.html#a6a4a5aa2ece6fc78cf4cfe8aea707073">Veiculo::setPlaca</a></div><div class="ttdeci">void setPlaca(string pl)</div><div class="ttdoc">Modifica a placa do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:113</div></div>
+<div class="ttc" id="aclass_veiculo_html_a703ecfecd24559df67d97bd54e29962e"><div class="ttname"><a href="class_veiculo.html#a703ecfecd24559df67d97bd54e29962e">Veiculo::fabricante</a></div><div class="ttdeci">string fabricante</div><div class="ttdoc">Fabricante do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.h:23</div></div>
+<div class="ttc" id="aclass_veiculo_html_a7c73008db8e31508658cf010a4007424"><div class="ttname"><a href="class_veiculo.html#a7c73008db8e31508658cf010a4007424">Veiculo::getModelo</a></div><div class="ttdeci">string getModelo()</div><div class="ttdoc">Retorna o modelo do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:57</div></div>
+<div class="ttc" id="aclass_veiculo_html_a7f9ea813b56cbc2f465735acee20ffc0"><div class="ttname"><a href="class_veiculo.html#a7f9ea813b56cbc2f465735acee20ffc0">Veiculo::parar</a></div><div class="ttdeci">void parar()</div><div class="ttdoc">Aciona a parada do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:128</div></div>
+<div class="ttc" id="aclass_veiculo_html_a81b68b2a5f4c9fb6dde8b2bae4835854"><div class="ttname"><a href="class_veiculo.html#a81b68b2a5f4c9fb6dde8b2bae4835854">Veiculo::getFabricante</a></div><div class="ttdeci">string getFabricante()</div><div class="ttdoc">Retorna o fabricante do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:41</div></div>
+<div class="ttc" id="aclass_veiculo_html_a888f0545d193a8ddaaa6ab661b59e661"><div class="ttname"><a href="class_veiculo.html#a888f0545d193a8ddaaa6ab661b59e661">Veiculo::setModelo</a></div><div class="ttdeci">void setModelo(string mod)</div><div class="ttdoc">Modifica o modelo do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:65</div></div>
+<div class="ttc" id="aclass_veiculo_html_a9e647f58154cc3e11010f94d699f9c23"><div class="ttname"><a href="class_veiculo.html#a9e647f58154cc3e11010f94d699f9c23">Veiculo::mover</a></div><div class="ttdeci">void mover()</div><div class="ttdoc">Indica a movimentação do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:123</div></div>
+<div class="ttc" id="aclass_veiculo_html_aafab27708a2639bc83a4c3721e57d196"><div class="ttname"><a href="class_veiculo.html#aafab27708a2639bc83a4c3721e57d196">Veiculo::Veiculo</a></div><div class="ttdeci">Veiculo()</div><div class="ttdoc">Construtor padrão.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:17</div></div>
+<div class="ttc" id="aclass_veiculo_html_ab1b11774b6ee7e17da2f2b2bac36916f"><div class="ttname"><a href="class_veiculo.html#ab1b11774b6ee7e17da2f2b2bac36916f">Veiculo::placa</a></div><div class="ttdeci">string placa</div><div class="ttdoc">Placa do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.h:35</div></div>
+<div class="ttc" id="aclass_veiculo_html_ac7be734ce83a64b132069726a4b9efd1"><div class="ttname"><a href="class_veiculo.html#ac7be734ce83a64b132069726a4b9efd1">Veiculo::toString</a></div><div class="ttdeci">string toString()</div><div class="ttdoc">Retorna uma representação em string do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:137</div></div>
+<div class="ttc" id="aclass_veiculo_html_ad94e9b6b6b7d8b3132570204982a7f8c"><div class="ttname"><a href="class_veiculo.html#ad94e9b6b6b7d8b3132570204982a7f8c">Veiculo::setAno</a></div><div class="ttdeci">void setAno(short a)</div><div class="ttdoc">Modifica o ano de fabricação do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:81</div></div>
+<div class="ttc" id="aclass_veiculo_html_ae2a2891383aa10c43aa48745b967112f"><div class="ttname"><a href="class_veiculo.html#ae2a2891383aa10c43aa48745b967112f">Veiculo::setCor</a></div><div class="ttdeci">void setCor(string c)</div><div class="ttdoc">Modifica a cor do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:97</div></div>
+<div class="ttc" id="aclass_veiculo_html_af700ed20beb425a049001645c8226c88"><div class="ttname"><a href="class_veiculo.html#af700ed20beb425a049001645c8226c88">Veiculo::getPlaca</a></div><div class="ttdeci">string getPlaca()</div><div class="ttdoc">Retorna a placa do veículo.</div><div class="ttdef"><b>Definition:</b> veiculo.cpp:105</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.3
+</small></address>
+</body>
+</html>
