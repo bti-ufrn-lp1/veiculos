@@ -20,7 +20,7 @@ int main() {
     cout << "Carro: " << c.toString() << endl;
     c.ligar();
 
-    Veiculo* v = new Carro("Hyundai", "HB20S", 2022, "Branco", "FGH4I56", 25);
+    Veiculo* v = &c;
     cout << endl << "Veículo: " << v->toString() << endl;
     v->ligar();
 
