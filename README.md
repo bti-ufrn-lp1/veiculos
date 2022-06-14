@@ -10,7 +10,8 @@ Este programa agrega quatro classes. A classe [`Veiculo`](include/veiculo.h) def
 
 Os diagramas a seguir representam os relacionamentos entre as classes que compõem o programa:
 
-<img src="doc/class_carro__inherit__graph.png" /><br/>
+<img src="doc/class_carro__inherit__graph.png" style="margin-bottom: 20px" />
+<img src="doc/class_barco__inherit__graph.png" style="margin-bottom: 20px" />
 <img src="doc/class_veiculo__inherit__graph.png" />
 
 ## Estrutura do projeto
