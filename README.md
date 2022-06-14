@@ -10,13 +10,16 @@ Este programa agrega quatro classes. A classe [`Veiculo`](include/veiculo.h) def
 
 Os diagramas a seguir representam os relacionamentos entre as classes que compõem o programa:
 
-<img src="doc/class_carro__inherit__graph.png" style="margin-bottom: 20px" />
-<img src="doc/class_barco__inherit__graph.png" style="margin-bottom: 20px" />
+<div align="center">
+  
+![](doc/class_carro__inherit__graph.png) ![](doc/class_barco__inherit__graph.png)
+
 <img src="doc/class_veiculo__inherit__graph.png" />
+</div>
 
 ## Estrutura do projeto
 
-Primando pela modularização, a definição e a implementação da classe `Tempo` está separada em um arquivo cabeçalho [`tempo.h`](include/tempo.h) e de corpo [`tempo.cpp`](src/tempo.cpp). O arquivo [`main.cpp`](src/main.cpp) correspondente à implementação da função principal do programa. Os arquivos deste projeto estão assim organizados de acordo com a seguinte estrutura:
+Primando pela modularização, a definição e a implementação de cada uma das classes está separada em arquivos cabeçalho e de corpo. O arquivo [`main.cpp`](src/main.cpp) correspondente à implementação da função principal do programa. Os arquivos deste projeto estão assim organizados de acordo com a seguinte estrutura:
 
 ```text
 +─veiculos              ---> Nome do diretório do projeto
